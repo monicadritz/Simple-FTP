@@ -1,0 +1,18 @@
+
+Compiling and running ftserver.c
+
+To Compile: gcc ftserver.c
+
+To run: ./a.out <server_port>
+
+On another instance run the ftclient.py in a seperate directory. 
+
+Give it executable permissions: chmod +x ftclient.py
+
+To run: python ftclient.py <server name> <server port> <-g or -l> <if you choose -g Filename> <client port number>
+-g: This is used to get a file from the server
+-l: This is used to get a list of files in the servers directory
+
+**** MAKE SURE THAT THE EXECUTABLES ARE IN DIFFERENT DIRECTORIES ****
+
+This program was tested on flip1.engr.oregonstate.edu and flip3.engr.oregonstate.edu
